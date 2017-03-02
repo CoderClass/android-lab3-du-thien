@@ -23,4 +23,8 @@
         android:layout_toRightOf="@+id/etMessage"
         android:layout_alignTop="@+id/etMessage"
         android:text="Send"/>
+    <ListView
+        android:id="@+id/lvChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
 </RelativeLayout>
